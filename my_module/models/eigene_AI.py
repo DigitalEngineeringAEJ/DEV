@@ -15,7 +15,8 @@ class my_module(models.Model):
      @api.depends('DX')
      def _calc_AI(self):
          for record in self:
-             record.DX = integer(record.Anzahl_Infizierte) * float(record.Faktor) / integer(record.Population)
+             record.DX = 1 + 1   
+             #record.DX = integer(record.Anzahl_Infizierte) * float(record.Faktor) / integer(record.Population)
     
     
     
