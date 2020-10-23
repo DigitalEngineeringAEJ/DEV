@@ -10,6 +10,7 @@ class my_module(models.Model):
      value = fields.Integer()
      value2 = fields.Float(compute="_value_pc", store=True)
      description = fields.Text()
+     name2 =fields.Char()
 
      @api.depends('value')
      def _value_pc(self):
