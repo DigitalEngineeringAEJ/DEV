@@ -5,7 +5,7 @@ from odoo import models, fields, api
 
 class my_module(models.Model):
      _name = 'my_module.my_module'
-     _description = 'my_module.my_AI'
+     _description = 'my_module.my_module'
      Anzahl_Infizierte = fields.Integer()
      Faktor = fields.Float()
      Population = fields.Integer()
