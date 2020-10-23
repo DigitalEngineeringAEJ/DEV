@@ -10,7 +10,6 @@
           <field name="name"/>
           <field name="value"/>
           <field name="value2"/>
-          <field name="Test-CaseAEJ20201023"/>  
         </tree>
       </field>
     </record>
