@@ -12,7 +12,7 @@ class my_module(models.Model):
      DX = fields.Float(compute="_calc_AI", store=True)
     
     
-     @api.depends('Ergebnis')
+     @api.depends('DX')
      def _calc_AI(self):
          for record in self:
              record.DX = integer(record.Anzahl_Infizierte) * float(record.Faktor) / integer(record.Population)
