@@ -7,8 +7,6 @@
       <field name="model">my_module.my_module</field>
       <field name="arch" type="xml">
         <tree>
-          <field name="Anzahl_Infizierte"/>
-          <field name="Faktor"/>
           <field name="Population"/>
           <field name="DX"/>  
         </tree>
